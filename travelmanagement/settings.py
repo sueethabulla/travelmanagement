@@ -38,8 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mainapp',
-    'adminapp',
-    'userapp',
 ]
 
 MIDDLEWARE = [
@@ -87,6 +85,7 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "travel",
+        "USER": "postgres",
         "USER": "postgres",
         "PASSWORD": "adminadmin",
         "HOST": "database-1.crc2ucwuugqr.ap-south-1.rds.amazonaws.com",
